@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+* {
+    /**
+    * Для эксплорера
+    */
+    -ms-user-select: none;
+
+    /**
+     * Для мозилы
+     */
+    -moz-user-select: none;
+
+    /**
+     * Для конкверора
+     */
+    -khtml-user-select: none;
+
+    /**
+     * Для Сафари и Хрома
+     */
+    -webkit-user-select: none;
+    text-decoration: none;
+}
+p span {
+    /**
+     * Для эксплорера
+     */
+    -ms-user-select: none;
+
+    /**
+     * Для мозилы
+     */
+    -moz-user-select: none;
+
+    /**
+     * Для конкверора
+     */
+    -khtml-user-select: none;
+
+    /**
+     * Для Сафари и Хрома
+     */
+    -webkit-user-select: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.questionText {
+    display: block;
+    /*font-family: "Chivo Mono";*/
+    text-align: center;
+    /*background-color: yellow;*/
+    margin-top: 200px;
+    font-size: 2rem;
+
+}
+
+.answers {
+    display: block;
+    margin-left: 10px;
+    margin-top: 100px;
+    background-color: yellow;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.win_letter {
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.where {
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+}
